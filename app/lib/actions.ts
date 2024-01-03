@@ -5,6 +5,7 @@ export async function createInvoice(formData: FormData) {
        amount: formData.get('amount'),
        status: formData.get('status'),
      };
+     console.log("woeking")
      // Test it out:
      console.log(rawFormData);
 }
